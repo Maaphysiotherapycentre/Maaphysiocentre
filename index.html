@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maa Physiotherapy Centre</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+header {
+  background: linear-gradient(to right, #00b09b, #96c93d);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: #222;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url('https://images.unsplash.com/photo-1588776814546-ec7e1d9d3b3e');
+  background-size: cover;
+  color: white;
+}
+
+.section {
+  background: white;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  background: #e8f5e9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.btn {
+  background: #00b09b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+button {
+  background: #00b09b;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Maa Physiotherapy Centre</h1>
+  <p>Dr. K.K. Ranjan</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+  <h1>Heal Better, Live Better</h1>
+  <p>Expert Physiotherapy Care</p>
+  <a href="tel:8210213364" class="btn">📞 Call Now</a>
+  <a href="https://wa.me/918210213364" class="btn">💬 WhatsApp</a>
+</div>
+
+<div class="section">
+  <h2>About Us</h2>
+  <p>Maa Physiotherapy Centre provides advanced physiotherapy treatment under Dr. K.K. Ranjan.</p>
+</div>
+
+<div class="section" id="services">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">Back Pain</div>
+    <div class="card">Neck Pain</div>
+    <div class="card">Joint Pain</div>
+    <div class="card">Sports Injury</div>
+  </div>
+</div>
+
+<div class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>📍 Address:</strong> Referral Road, Dr Sanjeev Kumar Yadav ke samne</p>
+  <p><strong>📞 Phone:</strong> 8210213364</p>
+  <p><strong>🕒 Timing:</strong> 9 AM – 6 PM</p>
+
+  <h3>Book Appointment</h3>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <textarea placeholder="Your Problem"></textarea>
+    <button type="submit">Book Now</button>
+  </form>
+
+  <h3>Our Location</h3>
+  <iframe 
+    src="https://maps.google.com/maps?q=Referral%20Road&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    width="100%" height="250" style="border:0;">
+  </iframe>
+</div>
+
+<footer>
+  © 2026 Maa Physiotherapy Centre | All Rights Reserved
+</footer>
+
+</body>
+</html>
