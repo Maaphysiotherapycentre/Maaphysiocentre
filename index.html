@@ -100,22 +100,37 @@ footer {
   <h1>Maa Physiotherapy Centre</h1>
   <h2 style="text-align:center;">Our Clinic</h2>
 
-<img src="banner.jpeg" alt="Clinic Banner" style="width:100%; height:250px; object-fit:cover;">
+<img src="banner.jpeg" alt="Clinic Banner" style="width:100%; height:auto;">
 
 <br><br>
 
 <div style="text-align:center;">
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
 
-    <img src="phy.jpg" width="250" style="margin:10px;">
-    <img src="phy2.jpg" width="250" style="margin:10px;">
-    <img src="phy5.webp" width="250" style="margin:10px;">
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+</style>
 
-    <br>
-
-    <img src="3.jpg" width="250" style="margin:10px;">
-    <img src="4 image.jpg" width="250" style="margin:10px;">
-
+<div class="gallery">
+  <img src="phy.jpg">
+  <img src="phy2.jpg">
+  <img src="phy5.webp">
+  <img src="3.jpg">
+  <img src="4 image.jpg">
 </div>
+    
+
+
   <p>Dr. K.K. Ranjan(B.P.T)
      Physiotherapist</p>
 </header>
